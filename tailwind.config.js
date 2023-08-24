@@ -16,10 +16,15 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        arca: ['Arca Majora 3', 'sans'],
+        
       },
       letterSpacing: {
         widest: '0.25rem',
-      }
+      },
+      borderWidth: {
+        'custom': '80%',
+      },
     },
   },
   plugins: [

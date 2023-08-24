@@ -12,3 +12,10 @@ html{
     background-color: #1C1F24;
     font-family: Roboto;
   }
+ 
+  /* @font-face {
+    font-family: 'Arca Majora 3';
+    src: url('/public/Arca\ Majora\ 3') format('woff'),
+         /* url('/path/to/your/font/arca-majora-3.woff') format('woff'); */
+    
+  
