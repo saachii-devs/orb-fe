@@ -16,7 +16,8 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        arca: ['Arca Majora 3', 'sans'],
+        poppins: ['Poppins', 'sans'],
+        quick: ['Quicksand', 'sans'],
         
       },
       letterSpacing: {
@@ -24,6 +25,10 @@ module.exports = {
       },
       borderWidth: {
         'custom': '80%',
+      },
+      spacing: {
+        'custom-width': '200px',
+        'custom-height': '100px',
       },
     },
   },

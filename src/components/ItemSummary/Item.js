@@ -1,4 +1,5 @@
 import React from 'react'
+import { ReactSVG } from 'react-svg';
 import brain from "../../SummarySvg/brain.svg"
 import dot from "../../assets/dot.svg"
 import graydot from "../../assets/graydot.svg"
@@ -11,16 +12,16 @@ function Item() {
       </div>
       <div className='flex'>
       <div className='w-[9rem] h-[8rem] bg-[#191C20] mt-[1rem] ml-8 flex justify-center rounded-xl'>
-      <img src={brain} alt='' className='w-[7rem] h-[7rem] text-center mx-auto my-auto'/> 
+      <ReactSVG src={brain} className='w-[7rem] h-[7rem] text-center mx-auto my-auto'/> 
       </div>
       <div className='flex-col w-full'>
       <div className="flex mt-[1.7rem] ml-8">
            
-           <img src={graydot} alt="" className="h-[1rem] mt-[1.1rem]"/>
+           <ReactSVG src={graydot}  className="h-[1rem] mt-[1.1rem]"/>
            <span className="font-roboto text-base font-normal text-[#B2B2B2] mr-[1.5rem] mt-[0.9rem] whitespace-nowrap">Moderate: 20%</span>
-           <img src={lightgraydot} alt="" className="h-[1rem] mt-[1.1rem]"/>
+           <ReactSVG src={lightgraydot}  className="h-[1rem] mt-[1.1rem]"/>
            <span className="font-roboto text-base font-normal text-[#B2B2B2] mr-[1.5rem]  mt-[0.9rem] whitespace-nowrap">Faulty: 12%</span>
-           <img src={dot} alt="dot" className="h-[1rem] mt-[1.1rem]"/>
+           <ReactSVG src={dot}  className="h-[1rem] mt-[1.1rem]"/>
            <span className="font-roboto text-base font-normal text-[#B2B2B2] mr-[1.5rem] mt-[0.9rem] whitespace-nowrap">Optimal: 68%</span>
               
        </div>

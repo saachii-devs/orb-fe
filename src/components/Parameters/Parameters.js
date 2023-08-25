@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactSVG } from 'react-svg';
 import graph from "../../assets/graph.svg";
 import dot from "../../assets/dot.svg";
 function Parameters() {
@@ -15,7 +16,7 @@ function Parameters() {
                 View Details
               </div>
             </div>
-            <img src={graph} alt="" className="w-[65%]" />
+            <ReactSVG  src={graph}  className="w-[65%]" />
             <span className="uppercase text-[#00DEFF] font-sans text-xl font-bold text-centerw-[10rem] mt-[1.2rem] mr-[1.6rem]">
               faulty Zone
             </span>
@@ -27,21 +28,66 @@ function Parameters() {
                 <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
               </div>
               <div className="flex gap-[5rem]">
-                <div className="flex">
-                  <img src={dot} alt="" className="h-[1rem] mt-[1rem]" />
-                  <span className="font-sans text-xl font-normal text-[#B2B2B2] mx-2 mt-[0.9rem]">
+                <div className="flex ml-2">
+                  <ReactSVG  src={dot}  className="h-[1rem] mt-[1.4rem] ml-4" />
+                  <span className="font-sans text-xl font-normal text-[#B2B2B2] mr-2 mt-[0.9rem]">
                     Optimal
                   </span>
                 </div>
-                <div className="text-[#08B7F6] font-sans text-lg leading-3 mt-4">
+                <div className="text-[#08B7F6] font-sans text-lg leading-3 mt-[1.5rem] ml-4">
                 View Details
               </div>
               </div>
             </div>
-            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl"></div>
-            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl"></div>
-            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl"></div>
-          </div>
+            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
+              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+                <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
+              </div>
+              <div className="flex gap-[5rem]">
+                <div className="flex ml-2">
+                  <ReactSVG  src={dot}  className="h-[1rem] mt-[1.4rem] ml-4" />
+                  <span className="font-sans text-xl font-normal text-[#B2B2B2] mr-2 mt-[0.9rem]">
+                    Optimal
+                  </span>
+                </div>
+                <div className="text-[#08B7F6] font-sans text-lg leading-3 mt-[1.5rem] ml-4">
+                View Details
+              </div>
+              </div>
+            </div>
+            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
+              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+                <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
+              </div>
+              <div className="flex gap-[5rem]">
+                <div className="flex ml-2">
+                  <ReactSVG  src={dot}  className="h-[1rem] mt-[1.4rem] ml-4" />
+                  <span className="font-sans text-xl font-normal text-[#B2B2B2] mr-2 mt-[0.9rem]">
+                    Optimal
+                  </span>
+                </div>
+                <div className="text-[#08B7F6] font-sans text-lg leading-3 mt-[1.5rem] ml-4">
+                View Details
+              </div>
+              </div>
+            </div>
+            <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
+              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+                <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
+              </div>
+              <div className="flex gap-[5rem]">
+                <div className="flex ml-2">
+                  <ReactSVG  src={dot}  className="h-[1rem] mt-[1.4rem] ml-4" />
+                  <span className="font-sans text-xl font-normal text-[#B2B2B2] mr-2 mt-[0.9rem]">
+                    Optimal
+                  </span>
+                </div>
+                <div className="text-[#08B7F6] font-sans text-lg leading-3 mt-[1.5rem] ml-4">
+                View Details
+              </div>
+              </div>
+            </div>
+             </div>
         </div>
       </div>
     </>

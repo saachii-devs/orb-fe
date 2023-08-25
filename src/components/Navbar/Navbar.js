@@ -16,8 +16,9 @@ function Navbar() {
 
   return (
     <div className="flex justify-between w-full h-[3.75rem] shadow-navbar">
-
-      <img className="text-white w-[11.41rem] h-[2.8125rem] ml-[3.5rem]" src={logo} alt=""/>
+     
+      <img src={logo} className="text-white w-[11.41rem] h-[2.8125rem] ml-[3.5rem]" alt=""/>
+      
         <div className=" my-auto w-[42rem] flex-shrink-0">
           {elements}
         </div>
