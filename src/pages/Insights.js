@@ -14,7 +14,7 @@ function Insights() {
 //     "Eating Behaviour & Taste",
 //   ];
   return (
-    <div className="h-full w-[90%] mx-auto ">
+    <div className="h-full w-[95%] mx-auto ">
      
       <div className="flex mt-4">
         <div className="flex-col h-[80%] flex-1 mt-16 max-w-[33.33%]">
