@@ -14,7 +14,7 @@ function Insights() {
 //     "Eating Behaviour & Taste",
 //   ];
   return (
-    <div className="h-full w-[95%] mx-auto ">
+    <div className="h-full w-[90%] mx-auto ">
      
       <div className="flex mt-4">
         <div className="flex-col h-[80%] flex-1 mt-16 max-w-[33.33%]">
@@ -36,7 +36,7 @@ function Insights() {
         </div>
         <div className="flex-col h-[80%] flex-1 mt-16 max-w-[33.33%]">
           <div className="text-[#B2B2B2] font-poppins text-base ml-[9rem]">
-            Your Clevo Code:{" "}
+            Your Clevo Code:
             <span className="text-[#FFF] ml-2"> 1010 3431 1200</span>
           </div>
           <div className="m-8">

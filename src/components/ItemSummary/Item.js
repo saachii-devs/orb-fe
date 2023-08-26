@@ -1,18 +1,18 @@
 import React from 'react'
 import { ReactSVG } from 'react-svg';
-import brain from "../../SummarySvg/brain.svg"
+import { ReactComponent as Brain } from "../../SummarySvg/brain.svg"
 import dot from "../../assets/dot.svg"
 import graydot from "../../assets/graydot.svg"
 import lightgraydot from "../../assets/lightgray.svg"
 function Item() {
   return (
-    <div className='h-[16rem] w-[85%] bg-[#1C1F24] shadow-s mt-[5rem] mx-[6rem] border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl'>
+    <div className='h-[16rem] w-[90%] bg-[#1C1F24] shadow-s border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl'>
       <div className='font-sans text-[#F4F4F4] text-2xl pt-12 pl-8'>
         Summary
       </div>
       <div className='flex'>
       <div className='w-[9rem] h-[8rem] bg-[#191C20] mt-[1rem] ml-8 flex justify-center rounded-xl'>
-      <ReactSVG src={brain} className='w-[7rem] h-[7rem] text-center mx-auto my-auto'/> 
+      <Brain className='w-[7rem] h-[7rem] text-center mx-auto my-auto'/>
       </div>
       <div className='flex-col w-full'>
       <div className="flex mt-[1.7rem] ml-8">

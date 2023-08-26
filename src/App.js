@@ -8,6 +8,7 @@ import Parameters from "./components/Parameters/Parameters";
 import Factors from "./components/HealthCareProfessionals/nteractionWithExtrenalComp/Factors";
 import Login from "./pages/Login";
 import Insights from "./pages/Insights";
+import SubParameters from "./pages/SubParameters";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
       {/* <Icon/> */}
       {/* <Factors/> */}
       {/* <Login/> */}
-      <Insights/>
+      {/* <Insights/> */}
+      <SubParameters/>
     </>
   );
 }
