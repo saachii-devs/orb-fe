@@ -4,6 +4,7 @@ import dot from "../../assets/dot.svg"
 import graydot from "../../assets/graydot.svg"
 import lightgraydot from "../../assets/lightgray.svg"
 import circle from "../../assets/circlegraph.svg"
+import DoughnutChart from '../Doughnut';
 
 const Summary= (props) => {
   return (
@@ -18,8 +19,8 @@ const Summary= (props) => {
         <span className='text-[1rem]'>%</span>
       </div>
       <div className='flex'>
-      <div className='flex-grow w-[40%] h-full mt-2'>
-      <ReactSVG src={circle} className="w-full h-full z-1" />
+      <div className='flex-grow w-[40%] h-[40%] mt-2'>
+      <DoughnutChart/>
       </div>
       <div className='flex-grow w-[10%] h-full my-auto mr-12'>
       <div className='flex'>

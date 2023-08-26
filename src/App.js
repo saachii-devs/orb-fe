@@ -20,8 +20,8 @@ function App() {
       {/* <Icon/> */}
       {/* <Factors/> */}
       {/* <Login/> */}
-      {/* <Insights/> */}
-      <SubParameters/>
+      <Insights/>
+      {/* <SubParameters/> */}
     </>
   );
 }
