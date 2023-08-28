@@ -5,7 +5,7 @@ import dot from "../../assets/dot.svg";
 function Parameters() {
   return (
     <>
-      <div className="h-[25rem] w-full flex-col bg-[#1C1F24] shadow-s  ml-0 border-[0.5px] border-solid border-zinc-600/20 blur-0 ">
+      <div className="h-[25rem] w-full  flex-col bg-[#1C1F24] shadow-s  ml-0 border-[0.5px] border-solid border-zinc-600/20 blur-0 ">
         <div className="py-[1.8rem] px-[3rem]">
           <div className=" w-full h-[39%] flex justify-between">
             <div className="flex-col">
@@ -24,7 +24,7 @@ function Parameters() {
           <div className="w-full border-t-[0.5px] border-solid border-zinc-600/20 mt-8" />
           <div className=" w-full h-[61%] flex gap-12 overflow-y-show overflow-x-hidden">
             <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
-              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+              <div className="bg-[#191B20] h-[60%]  pt-[7%] pl-[2rem] rounded-t-3xl">
                 <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
               </div>
               <div className="flex gap-[5rem]">
@@ -40,7 +40,7 @@ function Parameters() {
               </div>
             </div>
             <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
-              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+              <div className="bg-[#191B20] h-[60%]  pt-[7%] pl-[2rem] rounded-t-3xl">
                 <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
               </div>
               <div className="flex gap-[5rem]">
@@ -56,7 +56,7 @@ function Parameters() {
               </div>
             </div>
             <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
-              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+              <div className="bg-[#191B20] h-[60%]  pt-[7%] pl-[2rem] rounded-t-3xl">
                 <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
               </div>
               <div className="flex gap-[5rem]">
@@ -72,7 +72,7 @@ function Parameters() {
               </div>
             </div>
             <div className="h-[9.6rem] min-w-[23.5%] bg-[#1C1F24] shadow-s mt-[1.5rem] mb-4 border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
-              <div className="bg-[#191B20] h-[60%] overflow-hidden pt-[7%] pl-[2rem] rounded-t-3xl">
+              <div className="bg-[#191B20] h-[60%]  pt-[7%] pl-[2rem] rounded-t-3xl">
                 <span className="text-[#B2B2B2]  text-center text-xl font-normal tracking-widest leading-relaxed uppercase font-sans ">nicotine addiction</span>
               </div>
               <div className="flex gap-[5rem]">

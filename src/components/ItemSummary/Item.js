@@ -6,7 +6,7 @@ import graydot from "../../assets/graydot.svg"
 import lightgraydot from "../../assets/lightgray.svg"
 function Item() {
   return (
-    <div className='h-[16rem] w-[90%] bg-[#1C1F24] shadow-s border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl'>
+    <div className='h-[16rem]  w-[90%] bg-[#1C1F24] shadow-s border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl'>
       <div className='font-sans text-[#F4F4F4] text-2xl pt-12 pl-8'>
         Summary
       </div>

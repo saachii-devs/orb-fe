@@ -6,8 +6,8 @@ import Parameters from '../components/Parameters/Parameters'
 
 function SubParameters() {
   return (
-    <div>
-        <div className='flex w-full h-auto justify-between pl-8 py-10 pr-[5.8rem]'>
+    <div className='overflow-x-hidden'>
+        <div className='flex w-full h-auto justify-between pl-8 py-10 pr-[5.8rem] overflow-none'>
         <div className="text-[#F4F4F4] font-bold font-poppins text-3xl ml-8  ">
             Brain
           </div>

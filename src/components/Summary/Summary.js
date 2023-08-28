@@ -3,7 +3,6 @@ import { ReactSVG } from 'react-svg';
 import dot from "../../assets/dot.svg"
 import graydot from "../../assets/graydot.svg"
 import lightgraydot from "../../assets/lightgray.svg"
-import circle from "../../assets/circlegraph.svg"
 import DoughnutChart from '../Doughnut';
 
 const Summary= (props) => {
