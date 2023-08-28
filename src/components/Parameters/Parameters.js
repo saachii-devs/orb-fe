@@ -5,7 +5,7 @@ import dot from "../../assets/dot.svg";
 function Parameters() {
   return (
     <>
-      <div className="h-[25rem] w-full  flex-col bg-[#1C1F24] shadow-s  ml-0 border-[0.5px] border-solid border-zinc-600/20 blur-0 ">
+      <div className="h-[25rem] w-full mt-12 flex-col bg-[#1C1F24] shadow-s  ml-0 border-[0.5px] border-solid border-zinc-600/20 blur-0 ">
         <div className="py-[1.8rem] px-[3rem]">
           <div className=" w-full h-[39%] flex justify-between">
             <div className="flex-col">

@@ -13,12 +13,17 @@ import SubParameters from "./pages/SubParameters";
 import Footer from "./components/Footer";
 import EarlyWarnng from "./components/HealthCareProfessionals/nteractionWithExtrenalComp/EarlyWarnng";
 import WarningDisease from "./components/HealthCareProfessionals/nteractionWithExtrenalComp/WarningDisease";
-import WorkoutRegime from "./components/HealthCareProfessionals/WorkoutRegime";
+import WorkoutRegime from "./components/WorkoutRegime/WorkoutRegime";
 import BiomoleculeFunctioning from "./pages/BiomoleculeFunctioning/BiomoleculeFunctioning";
 import SubBiomoleculeFunctioning from "./pages/BiomoleculeFunctioning/SubBiomoleculeFunctioning";
 import Button from "./components/Button";
 import InteractionWithExternalFactors from "./pages/ForHealthCareProfessionals/InteractionWithExternalFactors";
 import EarlyWarningSystem from "./pages/ForHealthCareProfessionals/EarlyWarningSystem";
+import EarlyWarinngSystemDiabetes from "./pages/ForHealthCareProfessionals/EarlyWarinngSystemDiabetes";
+import InteractionWithFood from "./pages/ForHealthCareProfessionals/InteractionWithFood";
+import WorkoutRegimePage from "./pages/ForHealthCareProfessionals/WorkoutRegimePage";
+import PeakPerformance from "./pages/ForHealthCareProfessionals/PeakPerformance";
+import Account from "./pages/Account";
 function App() {
   return (
     <>
@@ -40,7 +45,12 @@ function App() {
       {/* <BiomoleculeFunctioning/> */}
       {/* <SubBiomoleculeFunctioning/> */}
       {/* <InteractionWithExternalFactors/> */}
-      <EarlyWarningSystem/>
+      {/* <EarlyWarningSystem/> */}
+      {/* <EarlyWarinngSystemDiabetes/> */}
+      {/* <InteractionWithFood/> */}
+      {/* <WorkoutRegimePage/> */}
+      {/* <PeakPerformance/> */}
+      <Account/>
       {/* <Button/> */}
     </>
   );

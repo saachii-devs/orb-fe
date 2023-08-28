@@ -1,5 +1,7 @@
 import React from 'react'
 import EarlyWarnng from '../../components/HealthCareProfessionals/nteractionWithExtrenalComp/EarlyWarnng'
+import {ReactComponent as ArrowRight} from "../../assets/arrowright.svg"
+import {ReactComponent as ArrowLeft} from "../../assets/arrowleft.svg"
 
 const EarlyWarningSystem = () => {
   return (
@@ -27,10 +29,14 @@ const EarlyWarningSystem = () => {
             <EarlyWarnng/>
         </div>
 
-        <div className='w-[10%] h-[3rem] border-2 border-[#20B3FF] mx-auto my-6 flex rounded'>
-        <div className='w-[29%] px-[1.4rem] py-[0.6rem]'>1</div>
+        <div className='w-[11%] h-[3rem] border-2 border-[#20B3FF] mx-auto my-6 flex rounded mb-32'>
+        <div className='w-[29%] mx-[1.25rem] py-[0.9rem] cursor-pointer'>
+          <ArrowLeft className='cursor-pointer'/>
+        </div>
         <div className='border-r-2 border-[#20B3FF] border-l-2 w-[39%] text-[#FFFFFF] font-roboto px-[1.4rem] py-[0.6rem]'>1</div>
-        <div className='w-[29%] px-[1.4rem] py-[0.6rem]'>3</div>
+        <div className='w-[29%] mx-[1.25rem] py-[0.9rem] cursor-pointer '>
+        <ArrowRight className='cursor-pointer'/>
+        </div>
         </div>
     </div>
   )
