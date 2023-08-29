@@ -29,10 +29,21 @@ if (authenticated===false) {
 }
  return (
     <div className="h-full w-[90%] mx-auto ">
+      <div className="md:hidden text-[#F4F4F4] font-base mb-2 mt-6 mr-32 font-poppins text-3xl ">
+            Summary
+          </div>
+    <div className=" flex-col md:hidden mt-6 ml-4">
+    
+    <Summary />
+    <Summary />
+    <Summary />
+    <Summary />
+    <Summary />
+    </div>
      
-      <div className="flex mt-4">
-        <div className="flex-col h-[80%] flex-1 mt-16 max-w-[33.33%]">
-          <div className="text-[#F4F4F4] font-bold font-poppins text-3xl ml-8  ">
+      <div className="hidden md:flex mt-4">
+        <div className="flex-col h-[80%] flex-1 mt-6 md:mt-16 max-w-[33.33%]">
+          <div className="text-[#F4F4F4] font-base md:font-bold font-poppins text-3xl md:ml-6  ">
             Summary
           </div>
           <div className="m-8">
@@ -46,7 +57,7 @@ if (authenticated===false) {
           </div>
         </div>
         <div className="flex-1 ">
-          <img src={body} alt="" className="w-[80%] h-full ml-10 mt-14" />
+          <img src={body} alt="" className="hidden  md:block w-[80%] h-full ml-10 mt-14" />
         </div>
         <div className="flex-col h-[80%] flex-1 mt-16 max-w-[33.33%]">
           <div className="text-[#B2B2B2] font-poppins text-base ml-[9rem]">

@@ -29,6 +29,13 @@ module.exports = {
       spacing: {
         'custom-width': '200px',
         'custom-height': '100px',
+        spacing: {
+        '20': '5rem', // For small screens
+        '50': '10rem',
+          'sf': '5rem', // For small screens
+          'mf': '10rem', // For large screens
+         // For large screens
+      },
       },
     },
   },

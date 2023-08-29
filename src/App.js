@@ -25,6 +25,7 @@ import WorkoutRegimePage from "./pages/ForHealthCareProfessionals/WorkoutRegimeP
 import PeakPerformance from "./pages/ForHealthCareProfessionals/PeakPerformance";
 import Account from "./pages/Account";
 import { useEffect, useState } from "react";
+import Summary from "./components/Summary/Summary";
 function App() {
 
  
@@ -37,7 +38,7 @@ function App() {
     
         <Route path="/" element={<Login/>}/>
           {/* <Route index element={<Home />} />*/}
-          <Route path="Insights" element={<Insights/>} />
+          <Route path="Insights" element={<SummaryParameters/>} />
           <Route path="Parameters" element={<SubParameters/>} />
       </Routes>
     </BrowserRouter>
