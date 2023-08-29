@@ -1,7 +1,24 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
 import login from "../assets/login.svg";
+import { Navigate } from "react-router-dom";
+import { useState,useEffect } from "react";
 function Login() {
+  const [authenticated, setauthenticated] = useState(null);
+  const handleLogin = ()=>{
+    localStorage.setItem("authenticated", true);
+    setauthenticated(true)
+  }
+  useEffect(() => {
+    const loggedInUser = localStorage.getItem("authenticated");
+    if (loggedInUser) {
+      setauthenticated(loggedInUser);
+    }
+  }, [authenticated]);
+
+  if (authenticated) {
+    return <Navigate replace to="/Insights" />;
+  }
   return (
     <div className="flex items-center gap-[4rem] ml-[24.5%] mt-[5%] h-[32rem] w-[55%] bg-[#1C1F24] shadow-s border-[0.5px] border-solid border-zinc-600/20 blur-0 rounded-3xl">
       <div className=" w-[40rem] h-[27rem] mt-[2.5rem] flex items-center gap-[4rem] ml-[5.5rem]">
@@ -17,6 +34,7 @@ function Login() {
                   <input
                     type="text"
                     className="bg-transparent border-b-[1px] border-b-[#2E333B] w-full font-roboto "
+                    onClick={handleLogin}
                   />
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Icon from "./components/IconElement/icon"
 import SummaryParameters from "./components/SummaryParameters/SummaryParameters";
-import Summary from "./components/Summary/Summary";
+import { BrowserRouter, Routes, Route,Navigate } from "react-router-dom";
 import './index.css'
 import Item from "./components/ItemSummary/Item";
 import Parameters from "./components/Parameters/Parameters";
@@ -24,10 +24,24 @@ import InteractionWithFood from "./pages/ForHealthCareProfessionals/InteractionW
 import WorkoutRegimePage from "./pages/ForHealthCareProfessionals/WorkoutRegimePage";
 import PeakPerformance from "./pages/ForHealthCareProfessionals/PeakPerformance";
 import Account from "./pages/Account";
+import { useEffect, useState } from "react";
 function App() {
+
+ 
   return (
     <>
-      <Navbar/>
+    
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+    
+        <Route path="/" element={<Login/>}/>
+          {/* <Route index element={<Home />} />*/}
+          <Route path="Insights" element={<Insights/>} />
+          <Route path="Parameters" element={<SubParameters/>} />
+      </Routes>
+    </BrowserRouter>
+      
       {/* <SummaryParameters/> */}
       {/* <Summary/> */}
       {/* <Item/> */}
@@ -35,9 +49,9 @@ function App() {
       {/* <Icon/> */}
       {/* <Factors/> */}
       {/* <Triggers/> */}
-      {/* <Login/> */}
+      
       {/* <Insights/> */}
-      {/* <SubParameters/> */}
+      
       {/* <Footer/> */}
       {/* <EarlyWarnng/> */}
       {/* <WarningDisease/> */}
@@ -50,7 +64,7 @@ function App() {
       {/* <InteractionWithFood/> */}
       {/* <WorkoutRegimePage/> */}
       {/* <PeakPerformance/> */}
-      <Account/>
+      {/* <Account/> */}
       {/* <Button/> */}
     </>
   );

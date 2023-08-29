@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import body from "../assets/body.svg";
 import Summary from "../components/Summary/Summary";
 import SummaryParameters from "../components/SummaryParameters/SummaryParameters";
+import { Link,Navigate } from "react-router-dom";
 function Insights() {
+  const[authenticated,setauthenticated] = useState(null)
 //   const summary1 = [
 //     "biomolecules functioning",
 //     "cellular health",
@@ -13,7 +15,19 @@ function Insights() {
 //     "Hormones & neurotransmitters",
 //     "Eating Behaviour & Taste",
 //   ];
-  return (
+useEffect(() => {
+  const loggedInUser = localStorage.getItem("authenticated");
+  if (loggedInUser) {
+    setauthenticated(loggedInUser);
+  }else{
+    setauthenticated(false)
+  }
+}, []);
+
+if (authenticated===false) {
+  return <Navigate replace to="/" />;
+}
+ return (
     <div className="h-full w-[90%] mx-auto ">
      
       <div className="flex mt-4">
@@ -59,7 +73,7 @@ function Insights() {
             <div className="flex">
             <div className="flex-col" >
 
-            <SummaryParameters/>
+            <Link to="/Parameters"><SummaryParameters/> </Link>
             <SummaryParameters/>
             <SummaryParameters/>
             <SummaryParameters/>
