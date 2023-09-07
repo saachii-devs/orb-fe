@@ -38,7 +38,7 @@ function App() {
     
         <Route path="/" element={<Login/>}/>
           {/* <Route index element={<Home />} />*/}
-          <Route path="Insights" element={<SummaryParameters/>} />
+          <Route path="Insights" element={<WorkoutRegimePage/>} />
           <Route path="Parameters" element={<SubParameters/>} />
       </Routes>
     </BrowserRouter>
