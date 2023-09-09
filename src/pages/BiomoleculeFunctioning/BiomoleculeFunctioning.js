@@ -1,6 +1,9 @@
 import React from "react";
 import Icon from "../../components/IconElement/icon"
+import { Link, useParams } from "react-router-dom";
 const BiomoleculeFunctioning = () => {
+  let { id } = useParams();
+  console.log(id)
   return (
     <>
       <div className="h-full w-[91%] md:ml-[4rem] md:mt-[2.5rem]">
@@ -24,7 +27,7 @@ const BiomoleculeFunctioning = () => {
           </div>
         </div>
         <div className="w-full gap-6 md:mr-[-2.5rem] ml-6 md:ml-[0] mt-[2.5rem] flex md:flex-wrap flex-wrap md:gap-[2.3rem]">
-            <Icon/>
+            <Link to="Brain"><Icon/></Link>
             <Icon/>
             <Icon/>
             <Icon/>

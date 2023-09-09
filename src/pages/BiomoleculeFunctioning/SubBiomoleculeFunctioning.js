@@ -1,8 +1,10 @@
 import React from "react";
-
+import { useParams } from "react-router-dom";
 import Item from "../../components/ItemSummary/Item";
 import Button from "../../components/Button";
 const SubBiomoleculeFunctioning = () => {
+  let {subid} = useParams();
+  console.log(subid)
   return (
     <div>
       <div className="md:hidden flex justify-between ml-4 mt-6 w-full ">

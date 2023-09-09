@@ -39,7 +39,9 @@ function Insights() {
           </div>
       </div>
       <div className=" flex-col md:hidden mt-6 md:ml-4 ml-[1.5rem]">
-        <Summary />
+        <Link to="Summary/BioMolecules">
+          <Summary />
+          </Link>
         <Summary />
         <Summary />
         <Summary />
@@ -52,7 +54,9 @@ function Insights() {
             Summary
           </div>
           <div className="m-8">
-            <Summary />
+          <Link to="Summary/BioMolecules">
+          <Summary />
+          </Link>
           </div>
           <div className="m-8">
             <Summary />
