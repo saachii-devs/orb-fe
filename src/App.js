@@ -26,6 +26,7 @@ import PeakPerformance from "./pages/ForHealthCareProfessionals/PeakPerformance"
 import Account from "./pages/Account";
 import { useEffect, useState } from "react";
 import Summary from "./components/Summary/Summary";
+import FeedbackForm from "./pages/FeedbackForm";
 function App() {
 
  
@@ -38,7 +39,7 @@ function App() {
     
         <Route path="/" element={<Login/>}/>
           {/* <Route index element={<Home />} />*/}
-          <Route path="Insights" element={<Insights/>} />
+          <Route path="Insights" element={<FeedbackForm/>} />
           <Route path="Insights/Summary/:id" element={<BiomoleculeFunctioning/>} />
           <Route path="Insights/Summary/:id/:subid" element={<SubBiomoleculeFunctioning/>} />
           <Route path="Parameters" element={<SubParameters/>} />

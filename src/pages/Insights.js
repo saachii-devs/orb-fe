@@ -69,7 +69,7 @@ function Insights() {
           <img
             src={body}
             alt=""
-            className="hidden  md:block w-[80%] h-full ml-10 mt-14"
+            className="hidden md:block w-[80%] h-full ml-10 mt-14"
           />
         </div>
         <div className="flex-col h-[80%] flex-1 mt-16 md:max-w-[33.33%]">
@@ -94,7 +94,7 @@ function Insights() {
           Parameters
         </div>
 
-        <div className="hidden md:flex">
+        <div className="hidden md:flex gap-[7%]">
           <div className="flex-col">
             <Link to="/Parameters">
               <SummaryParameters />{" "}

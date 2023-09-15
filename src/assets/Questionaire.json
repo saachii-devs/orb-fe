@@ -1,0 +1,2615 @@
+[
+    {"LIFESTYLE":[{
+      "Heading": "LIFESTYLE",
+      "Question": "Do you smoke cigarettes or any other substance?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "If Yes, How much do you smoke?",
+      "Suboptions": "huge amount(more than 10) on daily basis,small amount on daily basis,huge amount occasionally,small amount occasionally"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Do you consume Alcohol?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "If Yes, How much is your consumption of Alcohol",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small amount on daily basis,Consuming huge amount occasionally,Consuming small amount occasionally"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Are you physically active?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your step count per day?",
+      "Suboptions": "Less than 1000 steps,1000-3000 steps,3000-7000 steps,More than 7000 steps"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "What is your active exercise time?(In calculation, please include only the time involved in any form of exercise)",
+      "Type": "mcq",
+      "Options": "Zero exercise,Less than 10 minutes per day,Between 10-30 minutes per day,More than 30 minutes per day",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Do you tend to relax in your free time?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Are you conscious about your health?(You give importance to nutrition,diet,physical activity,healthy lifestyle and go for regular health checkups)",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"rating",
+      "Sub-Question": "If Yes, How much would you rate yourself in terms of health consciousness?(Between 1-10, 10 being the highest)",
+      "Suboptions": "1,2,3,4,5,6,7,8,9,10"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "How much time in a day do you spend on social media,TV and other forms of digital entertainment?",
+      "Type": "mcq",
+      "Options": "Spend more than 4 hours on a daily basis,Spend between 2-4 hours on a daily basis,Spend less than 2 hours on a daily basis,Spend time on it occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Did you encounter any major stressful events in the past few years?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"rating",
+      "Sub-Question": "If Yes, How much would you rate the intensity of the event?(Between 1-10, 10 means very stressful)",
+      "Suboptions": "10,9,8,7,6,5,4,3,2,1"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Did you encounter any major stressful or traumatic events in your childhood?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"rating",
+      "Sub-Question": "If Yes, How much would you rate the intensity of the event?(Between 1-10, 10 means very stressful/traumatic)",
+      "Suboptions": "10,9,8,7,6,5,4,3,2,1"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "Are you satisfied with your current job or role?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "No",
+      "subQuestionType":"rating",
+      "Sub-Question": "If No, How much would you rate your dissatisfaction?(Between 1-10, 10 means totally dissatisfied)",
+      "Suboptions": "10,9,8,7,6,5,4,3,2,1"
+    },
+    {
+      "Heading": "LIFESTYLE",
+      "Question": "How much is your current stress level?(Between 1-10, 10 being the highest)",
+      "Type": "rating",
+      "Options": "10,9,8,7,6,5,4,3,2,1",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"DIETARY HABITS":[{
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you try to follow a healthy diet regularly?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "No",
+      "subQuestionType":"mcq",
+      "Sub-Question": "If No,How often do you fail to follow a healthy diet?",
+      "Suboptions": "Very frequently,Often,Sometimes,Occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Are you currently dieting or have been dieting recently?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "Sub-Question": "if Yes,Which of the following diet plans have you followed or are following currently",
+      "Suboptions": "Ketogenic diet,Vegan diet,High protein diet,Intermittent fasting,Calorie restriction diet,Fruit diet,Nothing specific"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Is your current diet easy to follow and sustain on a daily basis?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you smoke just after eating?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do that?",
+      "Suboptions": "Very frequently,Often,Sometimes,Occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How much is your salt intake on a daily basis?",
+      "Type": "mcq",
+      "Options": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis",
+      "subQuestionCondition": "Consuming huge amount on daily basis",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Consuming huge amount on daily basis,what's your mode and type on intake?",
+      "Suboptions": "Eat a lot of salty food,Add salt on cooked dishes,Food consumption of salted peanuts or chips or popcorn"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How much is your sugar and sweet intake on a daily basis?",
+      "Type": "mcq",
+      "Options": "Consuming huge amount on daily basis,Consuming moderate amount on daily basis,Consuming small amount on daily basis",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How much is your fruits and vegetables intake?",
+      "Type": "mcq",
+      "Options": "Consuming small/moderate amount occasionally,Consuming huge amount occasionally,Consuming small/moderate amount on daily basis,Consuming huge amount on daily basis",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume freshly prepared food?",
+      "Type": "mcq",
+      "Options": "Very occasionally,Sometimes,Frequently,On a daily basis",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume red meat?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes, How much is your read meat intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How much is your consumption of fried food?",
+      "Type": "mcq",
+      "Options": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How much is your water consumption on a daily basis?",
+      "Type": "mcq",
+      "Options": "Consuming less than 2L on daily basis,Consuming between 2L-4L on daily basis,Consuming between 4L-6L on daily basis,Consuming more than 6L on daily basis",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume carbonated drinks,soda or any other soft beverages?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume energy drinks like Bournvita,red bull etc?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you generally have your meals at the same time everyday?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "No",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if No,How often are you not able to consume meals on the same time?",
+      "Suboptions": "On a daily basis,Frequently,Sometimes,Very occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume junk food,street food,instant meals or fast foods?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume coffee?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming more than 3 cups on daily basis,Consuming less than 3 cups on daily basis,Consuming more than 3 cups occasionally,Consuming less than 3 cups occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "What's your meal preference during weekdays?",
+      "Type": "mcq",
+      "Options": "Just outside food,Mix of outside and homemade food,Just homemade food",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you skip meals?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do that?",
+      "Suboptions": "Very frequently,Often,Sometimes,Occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How often do you order a meal from outside or eat outside?",
+      "Type": "mcq",
+      "Options": "On a daily basis,Once a week,Once a month,Occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "How many meals do you consume on a daily basis(Including snacks)?",
+      "Type": "mcq",
+      "Options": "More than 8 meals a day,Around 6-8 meals a day,Around 3-6 meals a day,Around 3 meals a day",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume packaged food items?(like frozen food and vegetables,energy bars,ready to eat food items,bakery items,chocolate and candies,chips and namkeen etc)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Does you meal has a balanced proportion of vegetables,pulses,nuts,seeds,lentils,salad,fruits,dairy items and grains?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do that?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume any nutritional,ayurvedic/herbal supplements?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do that?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "DIETARY HABITS",
+      "Question": "Do you consume any of the mentioned inflammatory foods?(Sugar,processed food,trans fat,products with added preservatives and chemicals,Alcohol,read meat,refined carbs etc)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much is your intake?",
+      "Suboptions": "Consuming huge amount on daily basis,Consuming small/moderate amount on daily basis,Consuming huge amount occasionally,Consuming small/moderate amount occasionally"
+    }]},
+    {"SLEEPING HABITS":[{
+      "Heading": "SLEEPING HABITS",
+      "Question": "How often do you sleep late at night?(Post 12 or 1)",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Sometimes,Very occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "How often are you exposed to early morning sunlight or late evening moonlight?",
+      "Type": "mcq",
+      "Options": "Very occasionally,Sometimes,Frequently,On a daily basis",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you wake up in the middle of your sleep?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often does that happen?",
+      "Suboptions": "On a daily basis,Frequently,Sometimes,Very occasionally"
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you tend to use your phone/electronic gadgets before bedtime or before sleeping?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often does that happen?",
+      "Suboptions": "On a daily basis,Frequently,Sometimes,Very occasionally"
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Is your sleeping environment too cold, too warm,too noisy or are there too much lights?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "How often do you end up consuming a large meal before bedtime?",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Sometimes,Very occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you tend to drink Alcohol or smoke a Cigarette before bedtime?",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Occasionally,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you tend to drink coffee before bedtime?",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Occasionally,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you tend to exercise vigorously before bedtime?",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Occasionally,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Does your sleep time vary from one day to the next",
+      "Type": "mcq",
+      "Options": "On a daily basis,Frequently,Occasionally,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SLEEPING HABITS",
+      "Question": "Do you sleep close to 7-8 hours on a daily basis?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "if No, How often do you sleep around 8 hours on a daily basis?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    }]},
+    {"WORKOUT":[{
+      "Heading": "WORKOUT",
+      "Question": "Does your workout has strength training sessions in it?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "WORKOUT",
+      "Question": "Does your workout has cardio sessions in it?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "WORKOUT",
+      "Question": "Does your workout has Yoga and meditation in it?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "WORKOUT",
+      "Question": "Does your workout includes any sort of walking(slow,medium paced or brisk)?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "WORKOUT",
+      "Question": "Does your workout has high intensity exercise sessions in it?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Very occasionally,Sometimes,Frequently,On a daily basis"
+    },
+    {
+      "Heading": "WORKOUT",
+      "Question": "Does your workout schedule involves enough rest and recovery?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often do you do it?",
+      "Suboptions": "Every alternate day,Once in three days,Twice in a week,Once a week"
+    }]},
+    {"ENVIRONMENTAL EFFECT":[{
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "How would you describe the pollution levels in your environment?",
+      "Type": "mcq",
+      "Options": "Very high,High,Moderate,Low",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "How much is your exposure to smoke(smoke from vehicles,second hand cigarette smoke etc)?",
+      "Type": "mcq",
+      "Options": "Very high,High,Moderate,Low",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "How much is your exposure to dust and pollen?",
+      "Type": "mcq",
+      "Options": "Very high,High,Moderate,Low",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "What's your usage of plastic products,plastic food containers,plastic bottles etc?",
+      "Type": "mcq",
+      "Options": "Very high,High,Moderate,Low",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "What's your usage of products like air fresheners,cleaning products,perfumes,cosmetics etc?",
+      "Type": "mcq",
+      "Options": "Very high,High,Moderate,Low",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "How much is your usage of electronic gadgets,mobile phones,laptop etc?",
+      "Type": "mcq",
+      "Options": "Spend more than 4 hours on a daily basis,Spend between 2-4 hours on a daily basis,Spend less than 2 hours on a daily basis,Spend time on it occasionally",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "ENVIRONMENTAL EFFECT",
+      "Question": "Does your occupation or work involves working in night shift?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How often does that happen?",
+      "Suboptions": "On a daily basis,Frequently,Sometimes,Very occasionally"
+    }]},
+    {"DEMOGRAPHIC":[{
+      "Heading": "DEMOGRAPHIC",
+      "Question": "Which age group do you belong to?",
+      "Type": "mcq",
+      "Options": "Age group greater than 55,Age group 35-55,Age group 18-35,Age group under 18",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DEMOGRAPHIC",
+      "Question": "What's your Gender?",
+      "Type": "mcq",
+      "Options": "MALE,FEMALE,OTHERS",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DEMOGRAPHIC",
+      "Question": "What best describes your occupation/work?",
+      "Type": "mcq",
+      "Options": "Total desk job,Work that involves a little bit of physical movement,Groundwork,Work that involves a lot of physical movement",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DEMOGRAPHIC",
+      "Question": "How much is your occupational exposure to plastics,chemicals and coal?",
+      "Type": "mcq",
+      "Options": "Exposure to a lot of chemicals and plastics,Moderate exposure to chemicals and plastics,Little exposure to chemicals and plastics,No exposure at all",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"MEDICAL HISTORY":[{
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Do you have presence of belly fat?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Have you got a health checkup done in the past few months?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your lipid profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your blood glucose levels in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Thyroid profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Vitamin D in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Vitamin B12 in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Iron in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Calcium in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your CBC in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your liver profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your kidney profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your hormonal profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Fasting blood glucose in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Is your Urine culture profile in Normal/optimal range?",
+      "Type": "boolean",
+      "Options": "NO,YES",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Have you been hospitalised in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,When was the last time you were hospitalised?",
+      "Suboptions": "In past 1 year,1-3 years,3-5 years,5 years and more"
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Have you undergone any transplantation surgeries in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,When was it?",
+      "Suboptions": "In past 1 year,1-3 years,3-5 years,5 years and more"
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Have you undergone any gastrointestinal surgery surgeries in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,When was it?",
+      "Suboptions": "In past 1 year,1-3 years,3-5 years,5 years and more"
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Please define your menopausal status?",
+      "Type": "mcq",
+      "Options": "Post menopause,Perimenopause,Premenopause,Not applicable",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICAL HISTORY",
+      "Question": "Are you currently pregnant or have delivered recently?",
+      "Type": "mcq",
+      "Options": "YES,NO,Not applicable",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"INFECTION STATUS":[{
+      "Heading": "INFECTION STATUS",
+      "Question": "Have you been infected with Viral infections (such as Hepatitis B and C) in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much was the severity of the infection?",
+      "Suboptions": "Very severe,Severe,Moderately severe,No symptoms at all"
+    },
+    {
+      "Heading": "INFECTION STATUS",
+      "Question": "Have you been infected with COVID-19 viral infection in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "Yes",
+      "subQuestionType":"mcq",
+      "Sub-Question": "if Yes,How much was the severity of the infection?",
+      "Suboptions": "Very severe,Severe,Moderately severe,No symptoms at all"
+    }]},
+    {"DIAGNOSED DISORDER":[{
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Have you been diagnosed with any disorder in the past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Heart disease",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Hypertension",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Cancer",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Diabetes",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Arthritis",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Osteoporosis",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Allergies or sensitivities",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Mental illness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Neurological disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Eating disorders",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Intestinal or Gut disorders",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Lung disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Liver disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Kidney disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Thyroid disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Skin disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Dental disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Sleep disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "Autoimmune disorders",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "DIAGNOSED DISORDER",
+      "Question": "PCOS",
+      "Type": "mcq",
+      "Options": "YES,NO,Not applicable",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"FAMILY HISTORY":[{
+      "Heading": "FAMILY HISTORY",
+      "Question": "Heart disease",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Hypertension",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Cancer",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Diabetes",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Arthritis",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Osteoporosis",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Allergies",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Mental illness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Neurological disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Intestinal or Gut disorders",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Lung disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Infectious disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Liver disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Kidney disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Thyroid disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Autoimmune disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Infertility",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Addiction",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Migraine",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Eating disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Skin disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Hair loss",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Sleep disorder",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Obesity/High body fat",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "FAMILY HISTORY",
+      "Question": "Muscle disorders",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"SIGNS AND SYMPTOMS":[{
+      
+      "Label": "Which of the following signs and symptoms do you experience or have experienced in the near past?"
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Difficulty falling asleep",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Waking up frequently during sleep",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Waking up feeling exhausted",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Feeling sad or low frequently",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Confused thinking or reduced ability to concentrate",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Inability to focus or prioritise",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Restlessness and edginess",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Excessive fears or worries, or extreme feelings of guilt",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Extreme mood changes of highs and lows",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Withdrawal from friends and activities",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Significant tiredness, low energy or problems sleeping",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Difficulties in coping with daily problems or stress",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Problems with alcohol or drug use",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Major changes in eating habits",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Sex drive changes",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Excessive anger, hostility or violence",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Suicidal thinking",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Itchy, watery ears,nose and eyes when exposed to dust/pollen or any other irritant",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Swellings in face when exposed to dust/pollen or any other irritant",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Sneezing when exposed to dust/pollen or any other irritant",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Rashes when exposed to dust/pollen or any other irritant",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Stomach cramps or bloating after consuming some food items(dairy,nuts and seeds,gluten etc)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Wheezing (a whistling sound when you breathe) when exposed to dust/pollen or any other irritant",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Stomach disturbances like gas, bloating, constipation, diarrhea, and heartburn",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Unintentional weight changes",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Skin irritations",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Food intolerances",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Trouble breathing or Shortness of breath",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Feeling like you're not getting enough air",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Decreased ability to exercise",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "A cough that won't go away",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Coughing up blood or mucus",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Joint discomfort,Joint stiffness or Joint swelling",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Limited joint movement",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Weakness in the joint, or the joint becoming unstable",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Fatigue or tiredness that persists for quite some time",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Increased sensitivity to cold",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Dry and pale skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Weight gain",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Puffy face",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Muscle weakness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Heavier than normal or irregular menstrual periods",
+      "Type": "mcq",
+      "Options": "YES,NO,Not applicable",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Thinning hair",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Feeling depressed or low",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Shortness of breath",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Pain, numbness, weakness or coldness in your legs or arms",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Pain in the neck, jaw, throat, upper abdomen or back",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Fluttering in your chest",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Racing heartbeat",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Chest pain or discomfort",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Dizziness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Raised bumps that are red or white",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Rashes, which might be painful or itchy",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Scaly or rough skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Peeling skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Ulcers",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Open sores or lesions",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Dry, cracked skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Acne",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Discolored patches of skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Gradual thinning on top of head",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Circular or patchy bald spots",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Sudden loss of hair",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Frequent Hair loss",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Heavy thirst",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Blurry vision",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Peeing a lot",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "More hunger",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Numb or tingling feet",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Unintentional weight loss/weight gain",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Skin or urine infections",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Slow healing cuts and sores",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Blood glucose over 180 milligrams per deciliter (mg/dl)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Blood HbA1C over 5.7",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Persistent or sudden onset of a headache",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Weakness or loss of muscle strength",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Loss of sight or double vision",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Memory loss",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Impaired mental ability",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Lack of coordination",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Tremors and seizures",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Slurred speech",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Skipping meals or making excuses for not eating",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Adopting an overly restrictive diet",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Excessive focus on healthy eating",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Constantly thinking or planning about food",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Frequent checking in the mirror for perceived flaws",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Repeatedly eating large amounts of sweets or high-fat foods",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Exercising Excessively",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Expressing depression, disgust, shame or guilt about eating habits",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Unexplained Fatigue",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Brittle and Dry Hair",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Ridged or Spoon-Shaped Nails",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Mouth ulcers or crack in corner of the mouth",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Diarrhea or constipation",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Apathy or Irritability",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Constantly feeling cold",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Constantly feeling hungry",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Muscle weakness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Difficulty walking",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Frequent falling",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Muscle pain,stiffness or soreness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Abdominal pain or a feeling of fullness in the upper right side of the abdomen (belly)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Nausea",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Loss of appetite or weight loss",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Swollen abdomen and legs",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Extreme tiredness or mental confusion",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Weakness",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Yellowing of skin,eyeballs or urine",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Dry and itchy skin",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Need to urinate more often",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Experiencing persistent puffiness around your eyes",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Ankles and feet are swollen",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Frequent urine infections",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Extreme sensitivity to light and sound",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Headache that is acute, frequent, or throbbing",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Irregular periods or no periods at all(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Difficulty in getting pregnant(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Excessive body hair growth(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Weight gain(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Thinning hair and hair loss from the head(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Oily skin or acne(Women)",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Blurry or double vision",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Lightheadedness/Fainting",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Headache",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Nosebleeds",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Shortness of breath",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Nausea and/or vomiting",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Buzzing in the ears",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Tender or bleeding gums",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Toothache",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Sudden sensitivity to hot and cold temperatures or beverages",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Ulcers, sores, or tender areas in the mouth that won't heal after a week or two",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Brown,black or white staining on surface of tooth",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Holes or pits in teeth",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "SIGNS AND SYMPTOMS",
+      "Question": "Chronic bad breath",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"MEDICATION":[{
+      "Heading": "MEDICATION",
+      "Question": "Are you currently on any medication or have been in the near past?",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Antibiotics or Antifungal",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Antidepressants",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Antipsychotics",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Diuretics",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Muscle relaxers",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Pain killers",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Gastrointestinal medications",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Antacids",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Heart medications",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Steroids",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Anti allergy",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Anti inflammatory",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Diabetes medicine",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Blood pressure medicine",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "MEDICATION",
+      "Question": "Analgesics",
+      "Type": "boolean",
+      "Options": "YES,NO",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]},
+    {"LIFESTYLE MODIFICATION INTENT":[{
+      "Heading": "LIFESTYLE MODIFICATION INTENT",
+      "Question": "How much willing are you to modify your lifestyle?(Rate between 1-10,10 means very willing)",
+      "Type": "rating",
+      "Options": "1,2,3,4,5,6,7,8,9,10",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "LIFESTYLE MODIFICATION INTENT",
+      "Question": "How much willing are you to modify your dietary habits?(Rate between 1-10,10 means very willing)",
+      "Type": "rating",
+      "Options": "1,2,3,4,5,6,7,8,9,10",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    },
+    {
+      "Heading": "LIFESTYLE MODIFICATION INTENT",
+      "Question": "How much willing are you to participate in workout and physical activities?(Rate between 1-10,10 means very willing)",
+      "Type": "rating",
+      "Options": "1,2,3,4,5,6,7,8,9,10",
+      "subQuestionCondition": "",
+      "Sub-Question": "",
+      "Suboptions": ""
+    }]}
+  ]
