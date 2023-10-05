@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities; 
-
+@font-face {
+  font-family: 'ArcaMajora3-Heavy';
+  src: local('ArcaMajora3-Heavy'), url(./assets/ArcaMajora3-Heavy.woff2) format('woff2');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+.arca{
+  font-family: 'ArcaMajora3-Heavy';
+}
 html{
     scroll-behavior: smooth;
     padding: 0;

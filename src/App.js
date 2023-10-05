@@ -39,7 +39,7 @@ function App() {
     
         <Route path="/" element={<Login/>}/>
           {/* <Route index element={<Home />} />*/}
-          <Route path="Insights" element={<FeedbackForm/>} />
+          <Route path="Insights" element={<Insights/>} />
           <Route path="Insights/Summary/:id" element={<BiomoleculeFunctioning/>} />
           <Route path="Insights/Summary/:id/:subid" element={<SubBiomoleculeFunctioning/>} />
           <Route path="Parameters" element={<SubParameters/>} />

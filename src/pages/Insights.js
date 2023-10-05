@@ -30,7 +30,7 @@ function Insights() {
   return (
     <div className="h-full md:w-[90%] w-[97%] mx-auto ">
       <div className="md:hidden flex justify-between">
-        <div className= "text-[#F4F4F4] font-light mb-2 mt-6 md:mr-32 ml-[0.7rem] font-poppins text-2xl ">
+        <div className= "text-[#F4F4F4]  mb-2 mt-6 md:mr-32 ml-[0.7rem] arca text-2xl ">
           Summary
         </div>
         <div className="text-[#B2B2B2] w-[7rem] mt-[1.8rem] font-poppins text-xs md:ml-[9rem]  ">

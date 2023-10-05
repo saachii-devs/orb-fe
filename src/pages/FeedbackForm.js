@@ -19,12 +19,12 @@ export default function FeedbackForm() {
         <>
             <div className='flex-col gap-4 items-center justify-center w-full h-full  bg-white font-sans'>
 
-                <div className='bg-[#080594] min-h-[2.5rem] max-h-full w-full flex justify-center'>
-                    <span className='text-2xl text-white p-6 font-bold font-roboto '>CLEVEO FORM</span>
+                <div className='z-10 bg-[#080594] min-h-[2.5rem] max-h-full w-full flex justify-center sticky'>
+                    <span className='text-2xl text-white p-6 arca '>CLEVEO FORM</span>
                 </div>
 
-                <div className='relative overflow-y-scroll'>
-                    {current != "" ?
+                <div className='relative overflow-y-scroll h-[90%]'>
+                    {current !== "" ?
                         <div className='absolute z-10 w-full h-full bg-white mt-6 mb-6'>
                             <span className='text-2xl text-bold font-roboto ml-4'>{current}</span>
 
@@ -61,7 +61,8 @@ export default function FeedbackForm() {
                                     })}
                                 </form>
                             </div>
-                        </div> : ""}
+                            
+                        </div>  : ""}
                     <div className='ml-6 mt-6 mb-4'>
                         <span className='text-xl font-semibold'>Please fill in the details:</span>
                     </div>
@@ -75,9 +76,11 @@ export default function FeedbackForm() {
                 </div>
 
             </div>
-            <div className='z-20 flex justify-end sticky bottom-0 bg-white h-12'>
-                <button className=' bg-slate-400 text-white text-2xl w-[7rem] p-2 rounded-xl mr-4  font-sans' onClick={() => setCurrent("")}>SUBMIT</button>
-            </div>
+            {current===""?<div className='z-20 flex justify-end sticky bottom-0 bg-white h-[10]% p-4'>
+                <button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Submit</button>
+            </div>:<div className='z-20 flex justify-end sticky bottom-0 bg-white h-[10%] p-4'>
+            <button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Back</button><button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Next</button>
+            </div>}
         </>
     );
 }
