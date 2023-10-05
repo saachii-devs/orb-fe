@@ -50,7 +50,7 @@ function Insights() {
 
       <div className="hidden md:flex mt-4">
         <div className="flex-col h-[80%] flex-1 mt-6 md:mt-16 max-w-[33.33%]">
-          <div className="text-[#F4F4F4] font-base md:font-bold font-poppins text-3xl md:ml-6  ">
+          <div className="text-[#F4F4F4] font-base md:font-bold arca text-3xl md:ml-6  ">
             Summary
           </div>
           <div className="m-8">
