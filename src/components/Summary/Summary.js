@@ -13,7 +13,7 @@ const Summary= (props) => {
       <div className="w-[5rem] h-[2rem] whitespace-nowrap text-xl ml-4 mt-4 md:w-[20rem] md:h-[1.8rem] text-[#B2B2B2] md:text-lg font-normal tracking-widest leading-relaxed uppercase font-sans md:mx-[2.5rem] md:mt-[2rem] ">
       {/* {props.heading} */} Cellular Health
       </div>
-      <div className='text-[3rem] text-white absolute right-[62%] bottom-[26%] md:right-[61%] md:bottom-[31%] font-quick font-bold'>
+      <div className='text-[3rem] arca text-white absolute right-[62%] bottom-[26%] md:right-[61%] md:bottom-[31%] font-quick font-bold'>
         38
         <span className='text-[1rem]'>%</span>
       </div>

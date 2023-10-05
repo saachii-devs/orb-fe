@@ -17,16 +17,16 @@ export default function FeedbackForm() {
     }
     return (
         <>
-            <div className='flex-col gap-4 items-center justify-center w-full h-full  bg-white font-sans'>
+            <div className='flex-col gap-4 items-center justify-center w-full h-full  bg-gray-50 font-sans'>
 
                 <div className='z-10 bg-[#080594] min-h-[2.5rem] max-h-full w-full flex justify-center sticky'>
-                    <span className='text-2xl text-white p-6 arca '>CLEVEO FORM</span>
+                    <span className='text-2xl text-white p-6 arca '>CLEVO FORM</span>
                 </div>
 
                 <div className='relative overflow-y-scroll h-[90%]'>
                     {current !== "" ?
                         <div className='absolute z-10 w-full h-full bg-white mt-6 mb-6'>
-                            <span className='text-2xl text-bold font-roboto ml-4'>{current}</span>
+                            <span className='text-2xl arca text-bold font-roboto ml-4'>{current}</span>
 
                             {/* Level Indicator */}
                             <div className="h-[0.7rem] bg-white border-2 mt-2 w-[90%] ml-4 rounded-md">
@@ -68,7 +68,7 @@ export default function FeedbackForm() {
                     </div>
                     {data.map((item, index) => (
                         <div className='font-sans p-2 flex-col mt-2 ml-4' key={index}>
-                            <div className='mb-6 text-xl font-bold hover:text-2xl ease-in-out duration-200 font-roboto' onClick={() => handleCategoryChange(item)}>{Object.keys(item)[0]}</div>
+                            <div className='mb-6 text-xl font-bold hover:text-2xl arca ease-in-out duration-200 font-roboto' onClick={() => handleCategoryChange(item)}>{Object.keys(item)[0]}</div>
                             <div className='w-[96%] border-b-2 border-slate-300'></div>
                         </div>))}
 
@@ -76,8 +76,10 @@ export default function FeedbackForm() {
                 </div>
 
             </div>
-            {current===""?<div className='z-20 flex justify-end sticky bottom-0 bg-white h-[10]% p-4'>
+            {current===""? <div className='w-full h-[15%] bg-white shadow-2xl z-20 flex justify-end sticky bottom-0 bg-white h-[10]% p-4'>
+            
                 <button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Submit</button>
+            
             </div>:<div className='z-20 flex justify-end sticky bottom-0 bg-white h-[10%] p-4'>
             <button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Back</button><button className=' bg-slate-400 text-white text-xl w-[7rem] p-2 rounded-3xl mr-4 p-2  font-roboto' onClick={() => setCurrent("")}>Next</button>
             </div>}
